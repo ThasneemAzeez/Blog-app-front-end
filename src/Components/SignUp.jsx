@@ -76,7 +76,7 @@ const SignUp = () => {
                                                 </div>
                                                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                                     <p>Have an account</p>
-                                                    <a href="" className="btn btn-primary" >Login In</a>
+                                                    <a href="/" className="btn btn-primary" >Login In</a>
                                                 </div>
                                             </div>
                                         </div>
