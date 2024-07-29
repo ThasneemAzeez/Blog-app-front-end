@@ -4,6 +4,7 @@ import './App.css';
 import SignIn from './Components/SignIn';
 import SignUp from './Components/SignUp';
 import CreatePost from './Components/CreatePost';
+import ViewAll from './Components/ViewAll';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path='/' element={<SignIn/>}/>
       <Route path='/signup' element={<SignUp/>}/>
       <Route path='/create' element={<CreatePost/>}/>
+      <Route path='/viewall' element={<ViewAll/>}/>
 
       
     </Routes>
